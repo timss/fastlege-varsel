@@ -2,7 +2,7 @@
 
 import dbus
 
-def desktop(title, body="", app_name="", app_icon="",
+def desktop(summary, body="", app_name="", app_icon="",
             timeout=5000, actions=[], hints=[], replaces_id=0):
     """Shows a desktop notification using D-Bus.
 
