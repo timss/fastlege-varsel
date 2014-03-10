@@ -26,7 +26,7 @@ def desktop(title, body="", app_name="", app_icon="",
         return False
 
 def email(sender, recipient, subject, body,
-          server, user="", name, passwd):
+          server, user, name, passwd):
     """Sends an e-mail notification.
 
     Using a specified SMTP server sends an e-mail notification.
