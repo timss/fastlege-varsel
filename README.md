@@ -1,8 +1,8 @@
 # Fastlege varsel
 
 Et enkelt script som sjekker om en gitt fastlege eller legekontor har noen
-ledige plasser. Data hentes fra [MinFastlege](https://www.nav.no/minfastlege), 
-levert av NAV.
+ledige plasser. Data hentes fra
+[MinFastlege](https://tjenester.nav.no/minfastlege), levert av NAV.
 
 Ment som et gratis alternativ til lignende betalingstjenester som 
 [leger.no](http://www.leger.no), [legelisten.no](http://www.legelisten.no) og
