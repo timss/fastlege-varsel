@@ -33,4 +33,4 @@ def email(sender, recipient, subject, body,
     Using a specified SMTP server sends an e-mail notification.
     Could be done using a shared/public e-mail, maybe even using Gmail.
     """
-    pass
+    raise NotImplementedError
