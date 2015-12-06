@@ -18,5 +18,5 @@ def scrape(url, county=None, community=None):
 
 def filter_tags(soup, tag, pat):
     """Return dict of tag value/text from soup"""
-    tags = soup.findAll(tag, attrs={'value': re.compile(pat)})
+    tags = soup.find_all(tag, attrs={'value': re.compile(pat)})
     return {tag.attrs['value']: tag.text for tag in tags}
