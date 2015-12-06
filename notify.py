@@ -26,6 +26,10 @@ def desktop(summary, body="", app_name="", app_icon="",
     except: # TODO: exception e
         return False
 
+def push():
+    """Notify using push service"""
+    raise NotImplementedError
+
 def email(sender, recipient, subject, body,
           server, user, name, passwd):
     """Sends an e-mail notification.
